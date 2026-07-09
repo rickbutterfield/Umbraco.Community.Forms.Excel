@@ -1,0 +1,33 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+
+## Visual Studio
+.vs/
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/*
+!.vscode/extensions.json
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/

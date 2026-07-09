@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Umbraco.Community.Forms.Excel</RootNamespace>
+    <Product>Umbraco.Community.Forms.Excel</Product>
+    <PackageId>Umbraco.Community.Forms.Excel</PackageId>
+    <Title>Umbraco Forms Excel Export</Title>
+    <Description>Adds Excel (.xlsx) export types to Umbraco Forms, using MiniExcel.</Description>
+    <PackageTags>umbraco umbraco-forms plugin excel export xlsx umbraco-marketplace</PackageTags>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Umbraco.Forms.Core" NoWarn="NU1901,NU1902,NU1903,NU1904" />
+    <PackageReference Include="MiniExcel" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Umbraco.Community.Forms.Excel/Umbraco.Community.Forms.Excel.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Umbraco.Community.Forms.Excel.Tests/Umbraco.Community.Forms.Excel.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,48 @@
+name: CI
+
+# Runs the test suite on every push / pull request to the long-lived branches.
+# The release workflow (release.yml) also runs these, but only at release time —
+# this gives per-PR feedback so regressions are caught before merge.
+
+on:
+  push:
+    branches:
+      - "main"
+      - "dev"
+  pull_request:
+    branches:
+      - "main"
+      - "dev"
+  workflow_dispatch:
+
+# Least-privilege token: the test job only needs to read the repo.
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v6
+      with:
+        fetch-depth: 0
+        fetch-tags: true
+
+    - name: Cache .NET packages
+      uses: actions/cache@v4
+      with:
+        path: ~/.nuget/packages
+        key: ${{ runner.os }}-dotnet-${{ hashFiles('**/*.csproj') }}
+        restore-keys: |
+          ${{ runner.os }}-dotnet-
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v5
+
+    - name: Build project
+      run: dotnet build src\Umbraco.Community.Forms.Excel\Umbraco.Community.Forms.Excel.csproj --configuration Release
+
+    - name: Run tests
+      run: dotnet test tests\Umbraco.Community.Forms.Excel.Tests\Umbraco.Community.Forms.Excel.Tests.csproj --configuration Release --verbosity normal
