@@ -10,7 +10,7 @@
 
   <!-- Umbraco Forms packages -->
   <PropertyGroup>
-    <UmbracoFormsCorePackageVersion>[17.0.0, 19.0.0)</UmbracoFormsCorePackageVersion>
+    <UmbracoFormsCorePackageVersion>[17.0.0, 18.0.0)</UmbracoFormsCorePackageVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="Umbraco.Forms.Core" Version="$(UmbracoFormsCorePackageVersion)" />
