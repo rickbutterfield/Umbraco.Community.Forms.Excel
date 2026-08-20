@@ -4,5 +4,6 @@
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/Umbraco.Community.Forms.Excel.Tests/Umbraco.Community.Forms.Excel.Tests.csproj" />
+    <Project Path="tests/Umbraco.Community.Forms.Excel.TestSite/Umbraco.Community.Forms.Excel.TestSite.csproj" />
   </Folder>
 </Solution>

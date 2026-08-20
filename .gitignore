@@ -31,3 +31,14 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+
+## Umbraco test site runtime data
+tests/**/umbraco/Data/
+tests/**/umbraco/Logs/
+tests/**/App_Data/
+tests/**/wwwroot/media/
+tests/**/wwwroot/umbraco/
+tests/**/App_Plugins/
+tests/**/*.sqlite.db
+tests/**/*.sqlite.db-shm
+tests/**/*.sqlite.db-wal

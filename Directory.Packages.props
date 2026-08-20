@@ -14,11 +14,19 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="Umbraco.Forms.Core" Version="$(UmbracoFormsCorePackageVersion)" />
+    <PackageVersion Include="Umbraco.Forms" Version="$(UmbracoFormsCorePackageVersion)" />
   </ItemGroup>
 
   <!-- Third-party packages -->
   <ItemGroup>
     <PackageVersion Include="MiniExcel" Version="1.45.0" />
+  </ItemGroup>
+
+  <!-- Test site packages -->
+  <ItemGroup>
+    <PackageVersion Include="Umbraco.Cms" Version="[17.0.0, 18.0.0)" />
+    <PackageVersion Include="Umbraco.Cms.DevelopmentMode.Backoffice" Version="[17.0.0, 18.0.0)" />
+    <PackageVersion Include="Microsoft.ICU.ICU4C.Runtime" Version="72.1.0.3" />
   </ItemGroup>
 
   <!-- Test packages -->
