@@ -8,11 +8,11 @@ on:
   push:
     branches:
       - "main"
-      - "dev"
+      - "v17/main"
   pull_request:
     branches:
       - "main"
-      - "dev"
+      - "v17/main"
   workflow_dispatch:
 
 # Least-privilege token: the test job only needs to read the repo.
