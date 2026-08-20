@@ -15,6 +15,7 @@
   <ItemGroup>
     <PackageVersion Include="Umbraco.Forms.Core" Version="$(UmbracoFormsCorePackageVersion)" />
     <PackageVersion Include="Umbraco.Forms" Version="$(UmbracoFormsCorePackageVersion)" />
+    <PackageVersion Include="Umbraco.Cms.Core" Version="$(UmbracoFormsCorePackageVersion)" />
   </ItemGroup>
 
   <!-- Third-party packages -->
