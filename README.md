@@ -21,7 +21,7 @@ No further configuration is required — the export types register automatically
 
 | Package version | Umbraco Forms |
 |---|---|
-| 1.x | 17.x |
+| 1.x | 18.x |
 
 ## License
 
