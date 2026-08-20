@@ -1,0 +1,17 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "Title": "Umbraco Forms Excel Export",
+  "Description": "Adds Excel (.xlsx) export types to Umbraco Forms, using MiniExcel.",
+  "Category": "Editor Tools",
+  "PackageType": "Package",
+  "LicenseTypes": ["Free"],
+  "VersionDependencyMode": "Default",
+  "Tags": ["umbraco", "umbraco-forms", "plugin", "excel", "export", "xlsx"],
+  "DocumentationUrl": "https://github.com/rickbutterfield/Umbraco.Community.Forms.Excel",
+  "IssueTrackerUrl": "https://github.com/rickbutterfield/Umbraco.Community.Forms.Excel/issues",
+  "AuthorDetails": {
+    "Name": "Rick Butterfield",
+    "Url": "https://github.com/rickbutterfield",
+    "SyncContributorsFromRepository": true
+  }
+}
