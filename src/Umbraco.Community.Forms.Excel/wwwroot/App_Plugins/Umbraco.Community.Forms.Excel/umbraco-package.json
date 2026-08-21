@@ -1,0 +1,15 @@
+{
+  "name": "Umbraco.Community.Forms.Excel",
+  "version": "0.1.0",
+  "extensions": [
+    {
+      "type": "localization",
+      "alias": "Umbraco.Community.Forms.Excel.Localization.EnUs",
+      "name": "Excel Export Localization (en-us)",
+      "meta": {
+        "culture": "en-us"
+      },
+      "js": "/App_Plugins/Umbraco.Community.Forms.Excel/lang/en-us.js"
+    }
+  ]
+}
