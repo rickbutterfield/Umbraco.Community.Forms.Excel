@@ -4,12 +4,12 @@
   "extensions": [
     {
       "type": "localization",
-      "alias": "Umbraco.Community.Forms.Excel.Localization.EnUs",
-      "name": "Excel Export Localization (en-us)",
+      "alias": "Umbraco.Community.Forms.Excel.Localization.En",
+      "name": "Excel Export Localization (en)",
       "meta": {
-        "culture": "en-us"
+        "culture": "en"
       },
-      "js": "/App_Plugins/Umbraco.Community.Forms.Excel/lang/en-us.js"
+      "js": "/App_Plugins/Umbraco.Community.Forms.Excel/lang/en.js"
     }
   ]
 }
