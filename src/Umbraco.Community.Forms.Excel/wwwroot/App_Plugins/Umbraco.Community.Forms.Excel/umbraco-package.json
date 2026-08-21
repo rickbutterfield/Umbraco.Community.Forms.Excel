@@ -10,6 +10,78 @@
         "culture": "en"
       },
       "js": "/App_Plugins/Umbraco.Community.Forms.Excel/lang/en.js"
+    },
+    {
+      "type": "localization",
+      "alias": "Umbraco.Community.Forms.Excel.Localization.CsCz",
+      "name": "Excel Export Localization (cs-cz)",
+      "meta": {
+        "culture": "cs-cz"
+      },
+      "js": "/App_Plugins/Umbraco.Community.Forms.Excel/lang/cs-cz.js"
+    },
+    {
+      "type": "localization",
+      "alias": "Umbraco.Community.Forms.Excel.Localization.DaDk",
+      "name": "Excel Export Localization (da-dk)",
+      "meta": {
+        "culture": "da-dk"
+      },
+      "js": "/App_Plugins/Umbraco.Community.Forms.Excel/lang/da-dk.js"
+    },
+    {
+      "type": "localization",
+      "alias": "Umbraco.Community.Forms.Excel.Localization.EnGb",
+      "name": "Excel Export Localization (en-gb)",
+      "meta": {
+        "culture": "en-gb"
+      },
+      "js": "/App_Plugins/Umbraco.Community.Forms.Excel/lang/en-gb.js"
+    },
+    {
+      "type": "localization",
+      "alias": "Umbraco.Community.Forms.Excel.Localization.EsEs",
+      "name": "Excel Export Localization (es-es)",
+      "meta": {
+        "culture": "es-es"
+      },
+      "js": "/App_Plugins/Umbraco.Community.Forms.Excel/lang/es-es.js"
+    },
+    {
+      "type": "localization",
+      "alias": "Umbraco.Community.Forms.Excel.Localization.FrFr",
+      "name": "Excel Export Localization (fr-fr)",
+      "meta": {
+        "culture": "fr-fr"
+      },
+      "js": "/App_Plugins/Umbraco.Community.Forms.Excel/lang/fr-fr.js"
+    },
+    {
+      "type": "localization",
+      "alias": "Umbraco.Community.Forms.Excel.Localization.ItIt",
+      "name": "Excel Export Localization (it-it)",
+      "meta": {
+        "culture": "it-it"
+      },
+      "js": "/App_Plugins/Umbraco.Community.Forms.Excel/lang/it-it.js"
+    },
+    {
+      "type": "localization",
+      "alias": "Umbraco.Community.Forms.Excel.Localization.NlNl",
+      "name": "Excel Export Localization (nl-nl)",
+      "meta": {
+        "culture": "nl-nl"
+      },
+      "js": "/App_Plugins/Umbraco.Community.Forms.Excel/lang/nl-nl.js"
+    },
+    {
+      "type": "localization",
+      "alias": "Umbraco.Community.Forms.Excel.Localization.PlPl",
+      "name": "Excel Export Localization (pl-pl)",
+      "meta": {
+        "culture": "pl-pl"
+      },
+      "js": "/App_Plugins/Umbraco.Community.Forms.Excel/lang/pl-pl.js"
     }
   ]
 }
